@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+   <title>Justine Louise Bandong Website Portflolio</title>
+</head>
+<body>
+   <div class="container">
+      <nav>
+         <div class="toggleSwitch"> 
+            <i class="fa fa-sun"></i>
+            <i class="fa fa-moon"></i>
+         </div>
+
+         <div class="logo">Website<b>.</b></div>
+         <ul class="navItems">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact"nav-link>contact</a></li>
+         </ul>
+         <div class="links">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
+         </div>
+      </nav>
+
+   <div id="home">
+      <div class="wrapper">
+         <div class="cols cols0">
+            <span class="topline">Hello</span>
+            <h1>I'm <span class="multiText"></span></h1>
+            <p>No one comes to your website to be entertained. They have questions they think you can answer. Content answers questions.</p>
+         </div>
+         <div class="cols cols1">
+            <div class="imgbox">
+               <img src="images/splash.png" id="splash">
+               <img src="images/img.png">
+            </div>
+         </div>
+      </div>
+     </div>
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+   <script>
+      var typingEffect = new Typed(".multiText",{
+         strings : ["Justine","coder","designer"],
+         loop : true,
+         typeSpeed : 100,
+         backSpeed : 80,
+         backDelay : 1500
+      })
+   </script>
+
+   <div id="about">
+      <div class="container">
+          <div class="row">
+              <div class="about-col-1">
+                  <img src="images/pics.jpg" alt="p0">
+              </div>
+              <div class="about-col-2">
+                  <h1 class="about-me">About Me</h1>
+                  <p>
+                     I'm Justine Louise Bandong, I am student of University Of Pangasinan. I am a good listener and learner, able to communicate well with a group and on an individual level. 
+                     I am able to motivate and direct my talents and skills to meet objectives. I always seek to achieve a high standard in whatever work I undertake.
+                      I am well organised with a clear and positive approach to problem solving. I'm 
+                  </p>
+                  <h1 class="sub-title"> Personal Information </h1>
+                            <p>Date of Birth: August 25, 2001<br>Gender: Male
+                           <br>Nationality: Filipino</p>
+                  <h1 class="sub-title"> Education </h1>
+                            <p>PHINMA University of Pangasinan<br>Bachelor of Science in Information Technology</p>
+                  <h1 class="sub-title"> Hobbies </h1>
+                            <p>Playing Video Games, Playing Basketball </p><br><br><br>
+                  <h1 class="sub-title"><br> These are my social media account:<br> </h1>
+                <ul class="social-links-about">
+                    <li><a target="_blank" href="https://www.youtube.com/channel/UCv885vqsI5LJEOju71kWXCw"><img src="images/yt.png" alt=""></a></li>
+                    <li><a target="_blank" href="https://www.tiktok.com/@louizyyy"><img src="images/tiktok.png" alt=""></a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/itssyourDOS"><img src="images/fb.png" alt=""></a></li>
+                    <li> <a target="_blank" href="https://www.instagram.com/itzyudos/"><img src="images/ig.jpg" alt=""></a></li>
+                    <li> <a target="_blank" href="https://github.com/louizyyy"><img src="images/git.png" alt=""></a></li>
+                </ul>
+                <div id="resume">
+                      <a href="https://github.com/Louizyyy/resume/raw/main/resumepdf.pdf">
+                        <button type="button" class="about-btn btn">
+                            Get my resume
+                        </button>
+                    </a>
+                     </div>
+                  </div>
+              </div>
+            </div>
+         </div>
+
+   <section id="skills">
+      <div class="container">
+          <h2 class="section-title"><br>Skills<br></h2><br>
+          <br><div class="skill-wrapper">
+              <div class="skill-item">
+                  <div class="skill-item-icon">
+                      <i class='bx bxl-html5' ></i>
+                  </div>
+                  <h3 class="skill-item-title">HTML</h3>
+              </div>
+              <div class="skill-item">
+                  <div class="skill-item-icon">
+                      <i class='bx bxl-css3' ></i>
+                  </div>
+                  <h3 class="skill-item-title">CSS</h3>
+              </div>
+              <div class="skill-item">
+                  <div class="skill-item-icon">
+                      <i class='bx bxl-javascript' ></i>
+                  </div>
+                  <h3 class="skill-item-title">Javascript</h3>
+              </div>
+  </section>
+
+  <footer style="background-color: #cdbddb;">
+   <section id="contact" class="contacts">
+       <div class="Contact">
+           <h1 class="contact-me">Contact Me</h1>
+        <form action="" name="contact-us">
+        <div class="form-group">
+           <input type="name-field" class="text-holder1" type="text" name="name" maxlength="30" required placeholder="Name" />
+           <input type="email-form" class="text-holder1" type="email" name="email" required placeholder="Email" />
+           <textarea type="message" class="text-area" name="message" placeholder="Write your message here" maxlength="500" required></textarea>
+           <div id="form-button">
+               <button class="btn" id="submit-btn" type="submit" name="submit">
+                   Submit
+               </button>
+           </div>
+        </div>
+       </form>
+   </section>
+</footer>
+
+<script>
+   const toggleSwitch = document.querySelector('.toggleSwitch');
+   toggleSwitch.addEventListener('click', function(){
+      document.body.classList.toggle('switch');
+   });
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw-ESNmWPrYVxDeFOO5yGiZA9p6e4rJnyhfUTRcF5cYljwYi9HdjWIkdr1m_rbAPRftPQ/exec'
+    const form = document.forms['contact-us']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            form.reset()
+            alert('Thank You For Using My Website!')
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
